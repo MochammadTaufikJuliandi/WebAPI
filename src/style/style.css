@@ -1,0 +1,37 @@
+
+
+body {
+    background-image: url(./bg.png);
+    background-size: cover;
+}
+
+
+.search-container {
+    width: 500px;
+    border-radius: 40px;
+    margin: 50px auto;
+    border: 4px solid skyblue;
+    height: 42px;
+}
+
+#searchElement {
+    height: 42px;
+    outline: none;
+    width: 400px;
+    border-radius: 40px;
+    border: 0;
+}
+
+input::placeholder {
+    margin-left: 25%;
+}
+#searchButtonElement {
+    background: transparent;
+    outline: none;
+    border: 0;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.search-container:hover {
+    background-color: skyblue;
+}
